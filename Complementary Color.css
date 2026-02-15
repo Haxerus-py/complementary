@@ -1,0 +1,89 @@
+/* Complementary Color CSS
+
+\* This CSS file creates the rectangles to display complementary colors */
+
+#logo {
+    position: absolute;
+    top: 5px;
+    left: 2%
+}
+
+#MainColor, #CompColor {
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    display: inline-block;
+    border: 5px solid #001b3b;
+}
+
+#mainLabel, #compLabel {
+    position: absolute;
+    font-family: "Agency FB", cursive, bold;
+    color: #001b3b;
+}
+
+#MainColor {
+    position: absolute;
+    top: 105px;
+}
+
+#CompColor {
+    position: absolute;
+    top: 380px;
+}
+
+#compHeading {
+    color: #001b3b;
+    position: absolute;
+    font-family: "Agency FB", cursive, bold;
+    top: 320px;
+}
+
+#mainHeading {
+    color: #001b3b;
+    position: absolute;
+    font-family: "Agency FB", cursive, bold;
+    top: 45px;
+}
+
+#mainLabel {
+    top: 550px;
+    left: 225px;
+}
+
+#compLabel {
+    top: 275px;
+    left: 225px;
+}
+
+#heading {
+    font-size: 75px;
+    position: absolute;
+    top: 50px;
+    right: 50px;
+    font-family: "Agency FB", cursive, bold;
+    animation: flashColors 2s infinite;
+}
+
+#buttons {
+    font-size: 125px;
+    position: absolute;
+    bottom: 25px;
+    right: 50px;
+    font-family: "Agency FB", cursive, bold;
+
+}
+
+@keyframes flashColors {
+    0% { color: red}
+    25% {color: blue}
+    50% {color: green}
+    75% {color: purple}
+    100% {color: red}
+}
+
+#footer {
+    position: absolute;
+    bottom: 0px;
+    color: #001b3b;
+    font: bold 14px/1.5 "Agency FB", cursive;}
