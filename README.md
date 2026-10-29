@@ -1,2 +1,3 @@
-# complementary-converter
-My web complementary color converter. Random colors can be generated and colors can be inserted.
+# Complementary
+## Complementary is a web-based color converter
+Complementary converts any color provided to it via its RGB code to its complementary version. Isn't that cool. You can also generate a random color with its complementary
